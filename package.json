@@ -24,5 +24,8 @@
   "homepage": "https://github.com/forestbelton/pet#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
   }
 }
