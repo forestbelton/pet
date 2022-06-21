@@ -1,4 +1,12 @@
-import type { BadgeType } from "../model/badge";
+export enum BadgeType {
+    // TODO: This is a stub. Remove later
+    COLLECTED_ALL_PETS,
+}
+
+export class Badge {
+    type: BadgeType;
+    active: boolean;
+}
 
 export interface BadgeService {
     has_badge(type: BadgeType): boolean;
